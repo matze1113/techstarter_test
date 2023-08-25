@@ -1,2 +1,3 @@
-# Mein erstes repo bla
-hi matze hier 
+# Mein erstes Github-repository!!
+
+Grüsse an Alle da draussen !!!!
