@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Bestellformular</title>
+</head>
+<body>
+    <h1>Pizza Bestellung</h1>
+    
+    <form action="bestellung.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="adresse">Adresse:</label>
+        <input type="text" id="adresse" name="adresse" required><br><br>
+
+        <label for="groesse">Größe:</label>
+        <select id="groesse" name="groesse">
+            <option value="klein">Klein</option>
+            <option value="mittel">Mittel</option>
+            <option value="groß">Groß</option>
+        </select><br><br>
+
+        <label for="belaege">Beläge:</label><br>
+        <input type="checkbox" id="salami" name="belaege" value="Salami">
+        <label for="salami">Salami</label><br>
+        <input type="checkbox" id="schinken" name="belaege" value="Schinken">
+        <label for="schinken">Schinken</label><br>
+        <input type="checkbox" id="champignons" name="belaege" value="Champignons">
+        <label for="champignons">Champignons</label><br><br>
+
+        <input type="submit" value="Bestellung aufgeben">
+    </form>
+</body>
+</html>
