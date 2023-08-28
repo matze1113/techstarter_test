@@ -1,35 +1,38 @@
-/* stil1.css */
-
-/* Beispiel CSS-Code */
 body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  h1 {
-    color: blue;
-    font-size: 24px;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: blue;
+  font-size:350%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f20909;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1#MIASANMIA {
+  color: #f20909;
+  font-size: 36px;
+  margin-top: 20px;
+}
