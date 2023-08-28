@@ -1,0 +1,20 @@
+/* Beispiel CSS-Code */
+body {
+    background-color: #120574;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: rgb(228, 228, 240);
+    font-size: 24px;
+  }
+
+  h2{color: rgb(228, 228, 240);
+    font-size: 24px;
+  }
+  
+  .red-heading {
+    color: rgb(234, 11, 11);
+    font-size: 336px;
+    text-align: center;
+  }
