@@ -1,0 +1,129 @@
+/* styles.css */
+
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigationsleiste */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 1rem;
+  }
+  
+  nav img {
+    width: 42px;
+    height: 42px;
+  }
+  
+  nav #logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Sektion */
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Textfelder */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgb(8, 8, 8);
+  }
+  
+  /* Checkboxen */
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  /* Select-Element */
+  select {
+    height: 2rem;
+    width: 10rem;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  /* AI-Output */
+  #ai-output {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  /* Buttons */
+  button {
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  /* Dokumentenliste */
+  ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  ul li {
+    padding: 0.5rem;
+  }
+  
+  /* Upload-Button */
+  .upload-button {
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.2rem;
+  }
+  
+  .upload-button:hover {
+    background-color: darkblue;
+    color: white;
+  }
+  

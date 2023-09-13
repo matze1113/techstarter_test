@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matzes Todo App</title>
+    <meta charset="utf-8">
+</head>
+<style>
+    body {
+        background-color: #f31313;
+    }
+    .todo-list {
+        color: blue;
+    }
+    h1 {
+        color: rgb(12, 1, 1);
+        display: flex;
+        justify-content: center;
+    }
+    
+</style>
+<body>
+   <h1>Matzes Todo App</h1> 
+   <div><!-- Dieser div ist leer--></div>
+<div class="todo-list">
+    <ul id="todo">
+        <li>Einkaufen gehen
+            <button onclick="deleteTask(this)">delete</button>
+        </li>
+        <li>
+            Auto waschen gehen
+            <button onclick="deleteTask(this)">delete</button>
+        </li>
+        <!-- <li>hier muss meine todo auftauchen</li> -->
+    </ul>
+    <form action="">
+        <input id="todoName" type="text" size="60" placeholder="Deine Todo eintragen">
+        <input onclick="handleClick()" type="button" value="Todo hinzufügen">
+    </form>
+</div>
+</body>
+<script>
+    function handleClick() {
+        const value = document.querySelector("#todoName").value
+        const todo = document.querySelector("#todo")
+
+        const li = document.createElement("li")
+        li.textContent = value
+
+        const button = document.createElement("button")
+        button.textContent = " delete "
+        button.onclick = function() {
+            deleteTask(this)
+        }
+
+        li.appendChild(button)
+        todo.appendChild(li)
+    }
+
+    function deleteTask(button) {
+        const li = button.parentNode
+        const ul = li.parentNode
+        ul.removeChild(li)
+    }
+</script>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Überschrift und Eingabefeld</title>
+    <script>
+        function changeColor() {
+            var input = document.getElementById("colorInput").value;
+            var heading = document.getElementById("myHeading");
+            heading.style.color = input;
+        }
+    </script>
+</head>
+<body>
+    <h1 id="myHeading">Meine Überschrift</h1>
+    <input type="text" id="colorInput">
+    <button onclick="changeColor()">OK</button>
+</body>
+</html>

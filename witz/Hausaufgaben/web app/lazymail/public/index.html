@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>LazyMail</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <nav style="display: flex; justify-content: space-between;">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <img width="42" heigh="42" src="logo.png" alt="Unser Logo">
+                <span id="logo">LazyMail</logo></span>
+            </div>
+        <div>
+            <ul style="list-style-type: none;">
+                <li style="display: inline;">
+                    <a href="#">Hilfe</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="#">Preis</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="#">Einloggen</a>
+                </li>
+                <li style="display: inline;">
+                    <a href="#">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <section>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                <div style="display: flex; justify-content: end; ">
+                    <input style="width: 16.3rem; height: 2rem;" type="text" placeholder="Dein OpenAI API Key">
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <textarea placeholder="Füge ein deine Email auf die du die Antwort haben willst" name="" id="" cols="55"
+                        rows="20"></textarea>
+                    <textarea placeholder="Füge ein Kontext hinzu" name="" id="" cols="30" rows="20"></textarea>
+                </div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <fieldset>
+                        <legend>Wähle deine Option aus:</legend>
+                        <input type="checkbox" id="casual" name="casual" checked />
+                        <label for="casual">😌 Lässig</label>
+                        <input type="checkbox" id="professional" name="professional" />
+                        <label for="professional">🧳 Formell</label>
+                        <input type="checkbox" id="yes" name="yes" />
+                        <label for="yes">👍 Zusage</label>
+                        <input type="checkbox" id="no" name="no" />
+                        <label for="no">👎 Absage</label>
+                    </fieldset>
+                    <select style="height: 2rem; width: 10rem;" name="cars" id="cars">
+                        <option value="mehr">Mehr...</option>
+                        <option disabled value="option-1">Option #1</option>
+                        <option disabled value="option-2">Option #2</option>
+                        <option disabled value="option-3">Option #3</option>
+                    </select>
+
+                    </div>
+
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                <div style="display: flex; flex-direction: column; gap: 1rem">
+                    <textarea placeholder="Hier ist der AI-Output" name="" id="" cols="55" rows="20"></textarea>
+                    <button style="height: 2rem">Schreibe</button>
+                </div>
+                    <div style="display: flex; flex-direction: column; justify-content: space-between; background-color: gray; width: 16.4rem; color: white;">
+                        <ul style="list-style-type:square">
+                            <li>Mein PDF</li>
+                            <li>Mein PDF #2</li>
+                            <li>Mein PDF #3</li>
+                        </ul>
+                        <button style="height: 2rem; margin-bottom: 0.2rem; ">Upload Document</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
